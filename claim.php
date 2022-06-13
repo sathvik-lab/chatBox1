@@ -47,15 +47,12 @@ if($result)
 
 	else
 	{
-		$sql = "INSERT INTO `chatrooms` (`roomName`, `sTime`) VALUES ('$room', current_timestamp());";
-		if(mysqli_query($conn, $sql))
-		{
-		$message = "Room is ready ... You can chat now !!";
+		
+		
 		echo '<script language="javascript">';
-		echo 'alert("'.$message.'");';
-		echo 'window.location ="http://localhost/chatbox1/rooms.php?roomname=' . $room . '";';
+		echo 'window.location ="http://localhost/chatbox1/buffer.php?roomname=' . $room . '";';
 		echo '</script>';
-		}
+		
 
 	}
 }

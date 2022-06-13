@@ -32,7 +32,7 @@ else
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>My room</title>
+  <title>Rooms.</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -59,74 +59,7 @@ else
   <link href="assets/css/videocall.css" rel="stylesheet">
 
   <!-- // style for video conformation -->
-  <style>
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
-
-/* Button used to open the form */
-.open-button {
-  background-color: #555;
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  opacity: 0.8;
-}
-
-/* The popup form - hidden by default */
-.form-popup {
-  display: none;
-  position: fixed;
-  bottom: 0;
-  right: 10px;
-  border: 3px solid #f1f1f1;
-  z-index: 9;
-}
-
-/* Add styles to the form container */
-.form-container {
-  max-width: 300px;
-  padding: 10px;
-  background-color: white;
-}
-
-/* Full-width input fields */
-.form-container input[type=text], .form-container input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  border: none;
-  background: #f1f1f1;
-}
-
-/* When the inputs get focus, do something */
-.form-container input[type=text]:focus, .form-container input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-/* Set a style for the submit/login button */
-.form-container .btn-call {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  margin-bottom:10px;
-  opacity: 0.8;
-}
-
-/* Add a red background color to the cancel button */
-.form-container .cancel {
-  background-color: red;
-}
-
-/* Add some hover effects to buttons */
-.form-container .btn-call:hover, .open-button:hover {
-  opacity: 1;
-}
-</style>
+  
 
 </head>
 
@@ -136,22 +69,22 @@ body {font-family: Arial, Helvetica, sans-serif;}
   <header id="header">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">MyChatBox</a></h1>
+      <h1 class="logo"><a href="index.html">Rooms.</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
        <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
 
-      <nav id="navbar" class="navbar">
+      <!-- <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#about">About</a></li> -->
+          !-- <li><a class="nav-link scrollto" href="#about">About</a></li> 
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <!-- <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li> -->
+          !-- <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li> -
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
+          !-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> --
           <li><a class="getstarted scrollto" href="#about">Log In</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+      </nav> -->
 
     </div>
   </header><!-- End Header -->
@@ -161,7 +94,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 		<div class="card">
 			<div class="row g-0">
-				<div class="col-12 col-lg-5 col-xl-3 border-right">
+				<!-- <div class="col-12 col-lg-5 col-xl-3 border-right">
 
 					<div class="px-4 d-none d-md-block">
 						<div class="d-flex align-items-center">
@@ -218,7 +151,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 							</div>
 						</div>
 					</a>
-					<!-- <a href="#" class="list-group-item list-group-item-action border-0">
+					<!- <a href="#" class="list-group-item list-group-item-action border-0">
 						<div class="d-flex align-items-start">
 							<img src="https://bootdey.com/img/Content/avatar/avatar2.png" class="rounded-circle mr-1" alt="Doris Wilder" width="40" height="40">
 							<div class="flex-grow-1 ml-3">
@@ -244,21 +177,21 @@ body {font-family: Arial, Helvetica, sans-serif;}
 								<div class="small"><span class="fas fa-circle chat-offline"></span> Offline</div>
 							</div>
 						</div>
-					</a> -->
+					</a> 
 
 					<hr class="d-block d-lg-none mt-1 mb-0">
-				</div>
-				<div class="col-12 col-lg-7 col-xl-9">
+				</div> -->
+				<div class="col-12 col-lg-7 col-xl-12">
 					<div class="py-2 px-4 border-bottom d-none d-lg-block">
 						<div class="d-flex align-items-center py-1">
 							<div class="position-relative">
-								<img src="https://bootdey.com/img/Content/avatar/avatar3.png" class="rounded-circle mr-1" alt="Sharon Lessman" width="40" height="40">
+								<img src="https://images.unsplash.com/photo-1608889175123-8ee362201f81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" class="rounded-circle mr-1" alt="Sharon Lessman" width="40" height="40">
 							</div>
 							<div class="flex-grow-1 pl-3">
-								<strong>Sharon Lessman</strong>
-								<div class="text-muted small"><em>Typing...</em></div>
+								<strong><span>YOU</span></strong>
+								<!-- <div class="text-muted small"><em>Typing...</em></div> -->
 							</div>
-							<div>
+							<!-- <div>
 								<button class="btn btn-primary btn-lg mr-1 px-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone feather-lg"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></button>
 
 
@@ -290,7 +223,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 										<button onclick="muteAudio()">Mute Audio</button>
 									</div>
 								</div>
-							</div>
+							</div> -->
 						</div>
 					</div>
 
